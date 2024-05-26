@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const CodingProfiles = () => {
+import "@coreui/coreui/dist/css/coreui.min.css";
+import { Box } from "@chakra-ui/react";
+import ProfileCard from "./ProfileCard";
+
+const CarouselWithCards = () => {
   return (
-    <div>CodingProfiles</div>
-  )
-}
+    <Box className="w-[100%] h-auto bg-black flex flex-wrap items-center justify-center">
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+    </Box>
+  );
+};
 
-export default CodingProfiles
+export default CarouselWithCards;
