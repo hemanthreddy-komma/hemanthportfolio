@@ -24,6 +24,15 @@
   }
 }
 }
+.animated-text {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .animated-text {
+    font-size: 30px;
+  }
+}
 
 .gradient-text {
   background: linear-gradient(to bottom, #185A9D, #0F2E5D);

@@ -11,27 +11,39 @@ import {
   Divider,
   ButtonGroup,
 } from "@chakra-ui/react";
-const ProfileCard = () => {
+const ProfileCard = ({name,image,profilelink,problemssolved,highestrated}) => {
+  const handleClick = (url) => {
+    window.open(url, "_blank");
+  };
   return (
-    <Card maxW="xs" className="m-3">
+    <Card maxW="xs" className="m-4 md:m-5">
       <CardBody
         width="100%"
         className="flex justify-center items-center flex-col"
+        backgroundColor="red"
       >
         <Image
-          src="https://cdn.dribbble.com/users/70628/screenshots/1743345/codechef.png"
-          alt="Green double couch with wooden legs"
+          src={image}
+          alt={name}
+          width="250px"
+          height="250px"
           borderRadius="full"
+          bg="white"
         />
-        <Stack mt="6" spacing="3">
-          <Heading size="md">CodeChef</Heading>
-          <Text>Problems Solved:</Text>
-          <Text>Highest Rated:</Text>
-          <Text>Problems Solved:</Text>
+        <Stack
+          mt="7"
+          spacing="1"
+          height="100px"
+          className="flex justify-center items-center flex-col"
+        >
+          <Heading size="md">{name}</Heading>
+          {problemssolved && <Text>Problems Solved: {problemssolved}</Text>}
+          {highestrated && <Text>Highest Rated: {highestrated}</Text>}
+          <Text></Text>
         </Stack>
       </CardBody>
       <CardFooter>
-        <Button>View Profile</Button>
+        <Button onClick={() => handleClick(profilelink)}>View Profile</Button>
       </CardFooter>
     </Card>
   );
