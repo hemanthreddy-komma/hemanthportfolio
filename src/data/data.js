@@ -60,8 +60,7 @@ export const projects = [
     name: "TravelMate",
     description:
       "Developed a responsive travel suggestion app using the MERN (MongoDB, Express, React.js, Node.js) stack.The application helps tourists plan their travel based on parameters such as type of travel (single, family, friends), month of travel, and theme (mountains, beaches)",
-    image:
-      "https://www.logodesignlove.com/wp-content/uploads/2011/11/trademark-monogram.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tm_logo.jpg",
     url1: "https://github.com/Gohitha6Nadikota/TM",
     url2: "https://travelmate-india.vercel.app/",
   },

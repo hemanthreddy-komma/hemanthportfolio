@@ -42,7 +42,7 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
         height="410px"
       >
         <Box className="flip-card-front" width="250px" height="420px">
-          <Card bg="white" color="black" width="250px" height="420px">
+          <Card bg="#2C4E80" color="white" width="250px" height="420px">
             <CardBody className="flex items-center justify-center flex-col">
               <Image
                 src={image}
@@ -114,7 +114,7 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
           </Card>
         </Box>
         <Box className="flip-card-back w-[100%]">
-          <Card bg="white" color="black" width="100%">
+          <Card bg="#2C4E80" color="white" width="100%">
             <CardBody className="flex items-center justify-center flex-col w-[100%]">
               <Stack mt="2" spacing="3" width="100%">
                 <Heading size="md" align="center" width="100%">

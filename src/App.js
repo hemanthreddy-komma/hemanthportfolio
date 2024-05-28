@@ -8,7 +8,7 @@ import CodingProiles from "./components/CodingProfiles";
 import "@coreui/coreui/dist/css/coreui.min.css";
 function App() {
   return (
-    <div className="bg-blue-100">
+    <div className="bg-gradient-to-b from-blue-300 to-blue-200 relative">
       <NavBar />
       <Home />
       <Skills />

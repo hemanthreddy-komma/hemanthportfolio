@@ -15,21 +15,33 @@ const BigProfile = ({
       direction={{ base: "column", sm: "row" }}
       overflow="hidden"
       variant="outline"
-      backgroundColor="black"
+      className="bg-gradient-to-b from-blue-400 to-blue-500"
       color="white"
-      width={{md:"600px"}}
-      height={{md:"400px"}}
-      style={{display:'flex', alignItems:'center',justifyContent:'center'}}
+      width={{ md: "600px" }}
+      height={{ md: "400px" }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
     >
       <Stack>
         <CardBody>
-          <Heading size="md">{name}</Heading>
-          {problemssolved!==0 && <Text>Problems Solved: {problemssolved}</Text>}
-          {highestrated!==0 && <Text>Highest Rated: {highestrated}</Text>}
+          <Heading size="md" marginTop="0px" marginBottom="60px">{name}</Heading>
+          {problemssolved !== 0 && (
+            <Text className="text-lg">Problems Solved: {problemssolved}</Text>
+          )}
+          {highestrated !== 0 && (
+            <Text className="text-lg">Highest Rated: {highestrated}</Text>
+          )}
         </CardBody>
 
         <CardFooter>
-          <Button variant="solid" style={{backgroundColor:'white'}} onClick={()=>handleClick(profilelink)}>
+          <Button
+            variant="solid"
+            style={{ backgroundColor: "white" }}
+            onClick={() => handleClick(profilelink)}
+          >
             View Profile
           </Button>
         </CardFooter>

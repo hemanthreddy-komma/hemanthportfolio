@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from "react";
 const useObserver = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
-  const savedRef = useRef(null); // <-- Store ref.current in a separate ref
+  const savedRef = useRef(null);
 
   useEffect(() => {
-    savedRef.current = ref.current; // <-- Store ref.current
+    savedRef.current = ref.current;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -24,7 +24,7 @@ const useObserver = () => {
 
     return () => {
       if (savedRef.current) {
-        observer.unobserve(savedRef.current); // <-- Use the stored ref.current
+        observer.unobserve(savedRef.current);
       }
     };
   }, []);

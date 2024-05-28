@@ -21,27 +21,21 @@ const defaultOptions2 = {
 };
 const Contact = () => {
   return (
-    <Box id="contact" className='bg-black text-white rounded-t-lg'>
-      <Box className="text-4xl text-white bg-black p-4 gradient-text font-bold">
+    <Box id="contact" className="bg-blue-950 text-white rounded-t-lg">
+      <Box className="text-4xl text-white bg-blue-950 p-4 font-bold">
         Contact
       </Box>
-      <Box className="flex justify-center items-center flex-wrap bg-black">
-        <Box className="w-[250px] flex justify-center items-center bg-black flex-col m-2">
-          <Box
-            width={{ }}
-            style={{ marginTop: { base: "20px", md: "0px" } }}
-          >
-            <Lottie width="70%" height="50%"  options={defaultOptions1} />
+      <Box className="flex justify-center items-center flex-wrap bg-blue-950">
+        <Box className="w-[250px] flex justify-center items-center bg-blue-950 flex-col m-2">
+          <Box width={{}} style={{ marginTop: { base: "20px", md: "0px" } }}>
+            <Lottie width="70%" height="50%" options={defaultOptions1} />
           </Box>
           <Box className="text-white flex flex-col justify-center md:justify-start items-center h-[100px]">
             <Text>gohithapriyanadikota@gmail.com</Text>
           </Box>
         </Box>
-        <Box className="w-[250px] flex justify-center items-center bg-black flex-col m-2">
-          <Box
-            width={{}}
-            style={{ marginTop: { base: "20px", md: "30px" } }}
-          >
+        <Box className="w-[250px] flex justify-center items-center bg-blue-950 flex-col m-2">
+          <Box width={{}} style={{ marginTop: { base: "20px", md: "30px" } }}>
             <Lottie width="70%" height="50%" options={defaultOptions} />
           </Box>
           <Box className="text-white flex flex-col justify-center items-center">
@@ -50,11 +44,8 @@ const Contact = () => {
             <Text>Andhra Pradesh</Text>
           </Box>
         </Box>
-        <Box className="w-[250px] flex justify-center items-center bg-black flex-col m-2 ">
-          <Box
-            width={{}}
-            style={{ marginTop: { base: "20px", md: "0px" } }}
-          >
+        <Box className="w-[250px] flex justify-center items-center bg-blue-950 flex-col m-2 ">
+          <Box width={{}} style={{ marginTop: { base: "20px", md: "0px" } }}>
             <Lottie width="80%" height="80%" options={defaultOptions2} />
           </Box>
           <Box className="text-white flex flex-col justify-center items-center h-[120px]">
@@ -62,6 +53,9 @@ const Contact = () => {
             <Text>+91 9652686161</Text>
           </Box>
         </Box>
+      </Box>
+      <Box>
+        
       </Box>
     </Box>
   );

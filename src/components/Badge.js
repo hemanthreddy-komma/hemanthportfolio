@@ -16,12 +16,12 @@ const Badge = ({ name, percent }) => {
     if (isVisible) {
       let currentPercent = 0;
       const interval = setInterval(() => {
-        currentPercent += 1; // Increase by desired increment, e.g., 1
+        currentPercent += 1; 
         setDisplayedPercent(Math.min(currentPercent, percent));
         if (currentPercent >= percent) {
           clearInterval(interval);
         }
-      }, 20); // Adjust interval as needed for smoother animation
+      }, 20);
       return () => clearInterval(interval);
     }
   }, [isVisible, percent]);
@@ -52,7 +52,7 @@ const Badge = ({ name, percent }) => {
             overflow="hidden"
             position="relative"
           >
-            <Text className="text-[15px] md:text-[20px] font-bold">{name}</Text>
+            <Text className="text-[15px] md:text-[20px] font-bold mt-4">{name}</Text>
             <Text className="text-[15px]">{displayedPercent}</Text>
           </Box>
         </CircularProgressLabel>
