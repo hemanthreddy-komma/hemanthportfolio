@@ -15,6 +15,10 @@ const BigProfile = ({
       direction={{ base: "column", sm: "row" }}
       overflow="hidden"
       variant="outline"
+      backgroundSize="cover"
+      backgroundImage={
+        "https://w0.peakpx.com/wallpaper/1009/110/HD-wallpaper-blue-background-abstract-blue-design.jpg"
+      }
       className="bg-gradient-to-b from-blue-400 to-blue-500"
       color="white"
       width={{ md: "600px" }}
@@ -27,7 +31,9 @@ const BigProfile = ({
     >
       <Stack>
         <CardBody>
-          <Heading size="md" marginTop="0px" marginBottom="60px">{name}</Heading>
+          <Heading size="md" marginTop="0px" marginBottom="60px">
+            {name}
+          </Heading>
           {problemssolved !== 0 && (
             <Text className="text-lg">Problems Solved: {problemssolved}</Text>
           )}

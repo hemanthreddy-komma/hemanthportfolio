@@ -27,7 +27,7 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
 
   return (
     <Box
-      className="flip-card"
+      className="flip-card shadow-2xl shadow-black"
       maxW="xs"
       mx={{ base: "5px", md: "40px" }}
       my={{ base: "5px", md: "40px" }}

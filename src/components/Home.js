@@ -4,7 +4,9 @@ import animationData from '../animations/girl.json'
 import "../App.css";
 import {name} from '../data/data'
 import { TypeAnimation } from "react-type-animation";
-import { Button } from '@chakra-ui/react';
+import { Button,Text} from '@chakra-ui/react';
+
+
 const defaultOptions = {
   loop: true,
   autoplay: true,
@@ -12,6 +14,9 @@ const defaultOptions = {
 };
 
 const Home = () => {
+  const handleClick = () => {
+    window.open("https://drive.google.com/file/d/1DW7BJVwv7-ayJE_StKd0up3CvQbjV4i6/view?usp=sharing", "_blank");
+  };
   const [selIndex,setSelIndex]=useState(1);
   useEffect(() => {
     const interval=setTimeout(() => {
@@ -56,11 +61,24 @@ const Home = () => {
           <Button
             style={{
               fontSize: "14px",
-              marginTop:'13%',
-              color:'blue.400'
+              marginTop: "13%",
+              color: "blue.400",
             }}
+            className="shadow-2xl shadow-black"
+            onClick={handleClick}
           >
           Resume
+          </Button>
+          <Button
+            style={{
+              marginLeft: "4px",
+              fontSize: "14px",
+              marginTop: "13%",
+              color: "blue.400",
+            }}
+            className="shadow-2xl shadow-black"
+          >
+            <a href="mailto:gohithapriyanadikota@gmail.com">Hire Me</a>
           </Button>
         </div>
       </div>

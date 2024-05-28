@@ -22,7 +22,7 @@ const NavBar = () => {
         {isOpen && (
           <div className="flex flex-col bg-blue-950 text-white md:hidden absolute z-[2] top-[8vh] left-0 w-[65vw] shadow-xl rounded-lg">
             <ol className="flex justify-center flex-col items-center text-l font-extrabold">
-              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center  hover:bg-black hover:text-[#86cbfd]">
+              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-cente">
                 <a
                   href="#home"
                   onClick={() => setIsOpen(false)}
@@ -31,7 +31,7 @@ const NavBar = () => {
                   Home
                 </a>
               </li>
-              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center  hover:bg-black hover:text-[#86cbfd]">
+              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center">
                 <a
                   href="#skills"
                   onClick={() => setIsOpen(false)}
@@ -40,7 +40,7 @@ const NavBar = () => {
                   Skills
                 </a>
               </li>
-              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center hover:bg-black hover:text-[#86cbfd]">
+              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center">
                 <a
                   href="#projects"
                   onClick={() => setIsOpen(false)}
@@ -49,7 +49,7 @@ const NavBar = () => {
                   Projects
                 </a>
               </li>
-              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center  hover:bg-black hover:text-[#86cbfd]">
+              <li className="my-3 w-[100%] h-[45px] flex justify-center shadow-sm items-center">
                 <a href="#profiles" onClick={() => setIsOpen(false)}>
                   Profiles
                 </a>
@@ -59,7 +59,7 @@ const NavBar = () => {
                   Achievements
                 </a>
         </li>*/}
-              <li className="my-3 mb-4 w-[100%] h-[45px] flex justify-center shadow-sm items-center  hover:bg-black hover:text-[#86cbfd]">
+              <li className="my-3 mb-4 w-[100%] h-[45px] flex justify-center shadow-sm items-center">
                 <a href="#contact" onClick={() => setIsOpen(false)}>
                   Contact
                 </a>
@@ -68,31 +68,31 @@ const NavBar = () => {
           </div>
         )}
         <div className="">
-          <ol className="hidden md:flex font-semibold text-sm lg:text-lg text-white mt-2">
-            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+          <ol className="hidden md:flex font-semibold text-md lg:text-lg text-white mt-2">
+            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-blue-100 hover:cursor-pointer">
               <a href="#home" style={{ textDecoration: "none" }}>
                 Home
               </a>
             </li>
-            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-blue-100 hover:cursor-pointer">
               <a href="#skills" style={{ textDecoration: "none" }}>
                 Skills
               </a>
             </li>
-            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-blue-100  hover:cursor-pointer">
               <a href="#projects" style={{ textDecoration: "none" }}>
                 Projects
               </a>
             </li>
-            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+            <li className="md:mr-[10px] lg:mr-[50px] py-2 px-3 rounded-lg hover:bg-blue-100 hover:cursor-pointer">
               <a href="#profiles" style={{ textDecoration: "none" }}>
                 Profiles
               </a>
             </li>
-            {/*<li className="md:mr-[10px] lg:mr-[30px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+            {/*<li className="md:mr-[10px] lg:mr-[30px] py-2 px-3 rounded-lg hover:bg-blue-100 hover:cursor-pointer">
               <a href="#achievements">Achievements</a>
       </li>*/}
-            <li className="mr-[10px] lg:mr-[30px] py-2 px-3 rounded-lg hover:bg-black hover:text-[#86cbfd] hover:cursor-pointer">
+            <li className="mr-[10px] lg:mr-[30px] py-2 px-3 rounded-lg hover:bg-blue-100 hover:cursor-pointer">
               <a href="#contact" style={{ textDecoration: "none" }}>
                 Contact
               </a>

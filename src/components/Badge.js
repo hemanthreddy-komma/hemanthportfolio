@@ -30,7 +30,7 @@ const Badge = ({ name, percent }) => {
     <div ref={ref} className="flex items-center justify-center overflow-hidden">
       <CircularProgress
         size={{ base: "130px", md: "200px" }}
-        className="flex flex-col space-y-*"
+        className="flex flex-col space-y-* py-4 md:py-10"
         value={displayedPercent}
         thickness="5px"
       >
@@ -51,8 +51,11 @@ const Badge = ({ name, percent }) => {
             textAlign="center"
             overflow="hidden"
             position="relative"
+            className="shadow-xl md:shadow-2xl shadow-black"
           >
-            <Text className="text-[15px] md:text-[20px] font-bold mt-4">{name}</Text>
+            <Text className="text-[15px] md:text-[20px] font-bold mt-4">
+              {name}
+            </Text>
             <Text className="text-[15px]">{displayedPercent}</Text>
           </Box>
         </CircularProgressLabel>
