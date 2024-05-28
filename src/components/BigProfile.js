@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Image,Button,Text, CardBody, CardFooter ,Heading,Stack} from "@chakra-ui/react";
+import { Card,Button,Text, CardBody, CardFooter ,Heading,Stack} from "@chakra-ui/react";
 const BigProfile = ({
   name,
   image,

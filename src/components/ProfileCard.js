@@ -8,8 +8,6 @@ import {
   Image,
   Stack,
   Text,
-  Divider,
-  ButtonGroup,
 } from "@chakra-ui/react";
 const ProfileCard = ({name,image,profilelink,problemssolved,highestrated}) => {
   const handleClick = (url) => {
