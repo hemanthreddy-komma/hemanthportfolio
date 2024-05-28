@@ -9,14 +9,13 @@ import CodingProiles from "./components/CodingProfiles";
 import "@coreui/coreui/dist/css/coreui.min.css";
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <Home/>
-      <Skills/>
-      <Projects/>
-      <Achievements/>
-      <CodingProiles/>
-      <Contact/>
+    <div className="bg-blue-100">
+      <NavBar />
+      <Home />
+      <Skills />
+      <Projects />
+      <CodingProiles />
+      <Contact />
     </div>
   );
 }

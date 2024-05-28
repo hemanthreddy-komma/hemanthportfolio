@@ -50,7 +50,7 @@ export const projects = [
   {
     name: "YoutubeClone",
     description:
-      "A full-stack web application that allows users to upload, view, and interact with videos, emulating core YouTube functionalities. Built with React.js, Node.js, Express.js, and MongoDB, and utilizes YouTube Data API for video metadata and AWS S3 for video storage.",
+      "Developed a full-stack web application emulating core YouTube functionalities using React.js framework, offering Search, Video Play, Comments, and Live Chat features. Integrated a debouncing feature for smooth and efficient search interactions. ",
     image:
       "https://www.pngall.com/wp-content/uploads/13/Logo-Youtube-PNG-Images.png",
     url1: "https://github.com/Gohitha6Nadikota/Youtube",
@@ -59,7 +59,7 @@ export const projects = [
   {
     name: "TravelMate",
     description:
-      "A comprehensive e-commerce platform enabling users to browse products, add to cart, and securely checkout. Developed using React.js, Node.js, Express.js, and MongoDB, with Stripe integration for payment processing.",
+      "Developed a responsive travel suggestion app using the MERN (MongoDB, Express, React.js, Node.js) stack.The application helps tourists plan their travel based on parameters such as type of travel (single, family, friends), month of travel, and theme (mountains, beaches)",
     image:
       "https://www.logodesignlove.com/wp-content/uploads/2011/11/trademark-monogram.jpg",
     url1: "https://github.com/Gohitha6Nadikota/TM",
@@ -68,16 +68,16 @@ export const projects = [
   {
     name: "EduLearn",
     description:
-      "A social networking application that allows users to create profiles, post updates, and connect with friends. Built with React.js, Node.js, Express.js, and MongoDB, and features real-time messaging using Socket.io.",
+      "Developed EduLearnApp, a responsive web application designed to showcase a list of courses and their details using React. The app includes key features such as a Course Listing Page, Course Details Screen, and Student Dashboard. ",
     image:
-      "https://media.gettyimages.com/id/1328167226/vector/open-book.jpg?s=612x612&w=gi&k=20&c=PiJ9D8gO2QwWvEWUffmcaMQ1gV6KDReKxXpOL4U2gYY=",
+      "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/638/808/datas/original.png",
     url1: "https://github.com/Gohitha6Nadikota/CourseApp",
     url2: "https://gohitha-course-app.vercel.app/",
   },
   {
     name: "ChatHive",
     description:
-      "A responsive weather dashboard that provides current weather data and forecasts for any location. Developed using React.js and integrated with the OpenWeather API for real-time weather information.",
+      "A social networking application that allows users to interact with friends. Built with React.js, Node.js, Express.js, and MongoDB, and features real-time messaging using Socket.io.",
     image:
       "https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Messages-512.png",
     url1: "https://github.com/Gohitha6Nadikota/ChatHive",

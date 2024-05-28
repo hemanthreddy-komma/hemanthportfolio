@@ -4,14 +4,17 @@ import Badge from './Badge'
 import {skills} from '../data/data'
 const Skills = () => {
   return (
-    <div className="flex flex-col h-auto bg-gradient-to-b from-blue-100 to-blue-200 p-2">
+    <div
+      id="skills"
+      className="flex flex-col h-auto bg-gradient-to-b from-blue-100 to-blue-200 p-2"
+    >
       <div className="text-4xl text-white p-4 gradient-text font-bold">
         Skills
       </div>
       <div className="flex items-center justify-center flex-wrap">
-        {
-          skills.map((one)=>(<Badge key={one.name} name={one.name} percent={one.percent}/>))
-        }
+        {skills.map((one) => (
+          <Badge key={one.name} name={one.name} percent={one.percent} />
+        ))}
       </div>
     </div>
   );

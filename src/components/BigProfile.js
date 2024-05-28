@@ -17,16 +17,10 @@ const BigProfile = ({
       variant="outline"
       backgroundColor="black"
       color="white"
-      width="100%"
-      height="100%"
+      width={{md:"600px"}}
+      height={{md:"400px"}}
+      style={{display:'flex', alignItems:'center',justifyContent:'center'}}
     >
-      <Image
-        objectFit="cover"
-        maxW={{ base: "100%", sm: "200px" }}
-        src={image}
-        alt={name}
-      />
-
       <Stack>
         <CardBody>
           <Heading size="md">{name}</Heading>
@@ -35,7 +29,7 @@ const BigProfile = ({
         </CardBody>
 
         <CardFooter>
-          <Button variant="solid" colorScheme="blue" onClick={()=>handleClick(profilelink)}>
+          <Button variant="solid" style={{backgroundColor:'white'}} onClick={()=>handleClick(profilelink)}>
             View Profile
           </Button>
         </CardFooter>

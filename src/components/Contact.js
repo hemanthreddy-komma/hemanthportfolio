@@ -21,7 +21,7 @@ const defaultOptions2 = {
 };
 const Contact = () => {
   return (
-    <Box>
+    <Box id="contact" className='bg-black text-white rounded-t-lg'>
       <Box className="text-4xl text-white bg-black p-4 gradient-text font-bold">
         Contact
       </Box>
@@ -50,7 +50,7 @@ const Contact = () => {
             <Text>Andhra Pradesh</Text>
           </Box>
         </Box>
-        <Box className="w-[250px] flex justify-center items-center bg-black flex-col m-2">
+        <Box className="w-[250px] flex justify-center items-center bg-black flex-col m-2 ">
           <Box
             width={{}}
             style={{ marginTop: { base: "20px", md: "0px" } }}

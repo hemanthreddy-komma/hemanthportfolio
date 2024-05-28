@@ -39,10 +39,10 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
       <Box
         className={`flip-card-inner ${isFlipped ? "flipped" : ""}`}
         width="250px"
-        height="420px"
+        height="410px"
       >
         <Box className="flip-card-front" width="250px" height="420px">
-          <Card bg="black" color="white" width="250px" height="420px">
+          <Card bg="white" color="black" width="250px" height="420px">
             <CardBody className="flex items-center justify-center flex-col">
               <Image
                 src={image}
@@ -73,20 +73,20 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
                   justifyContent: "center",
                   alignItems: "center",
                   width: "100%",
-                  height:"8px",
-                  paddingBottom:"29px"
+                  height: "8px",
+                  paddingBottom: "29px",
                 }}
               >
                 <Button
                   w="50%"
-                  bg="black"
-                  color="white"
+                  bg="white"
+                  color="black"
+                  border="1px"
+                  borderColor="black"
                   fontWeight="bold"
                   _hover={{
                     bg: "black",
                     color: "white",
-                    border: "1px",
-                    borderColor: "white",
                   }}
                   onClick={(e) => handleClick(url1, e)}
                 >
@@ -95,14 +95,14 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
                 {url2 && (
                   <Button
                     w="50%"
-                    bg="black"
-                    color="white"
+                    bg="white"
+                    color="black"
+                    border="1px"
+                    borderColor="black"
                     fontWeight="bold"
                     _hover={{
                       bg: "black",
                       color: "white",
-                      border: "1px",
-                      borderColor: "white",
                     }}
                     onClick={(e) => handleClick(url2, e)}
                   >
@@ -114,7 +114,7 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
           </Card>
         </Box>
         <Box className="flip-card-back w-[100%]">
-          <Card bg="black" color="white" width="100%">
+          <Card bg="white" color="black" width="100%">
             <CardBody className="flex items-center justify-center flex-col w-[100%]">
               <Stack mt="2" spacing="3" width="100%">
                 <Heading size="md" align="center" width="100%">
@@ -145,14 +145,14 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
               >
                 <Button
                   w="50%"
-                  bg="black"
-                  color="white"
+                  bg="white"
+                  color="black"
+                  border="1px"
+                  borderColor="black"
                   fontWeight="bold"
                   _hover={{
                     bg: "black",
                     color: "white",
-                    border: "1px",
-                    borderColor: "white",
                   }}
                   onClick={(e) => handleClick(url1, e)}
                 >
@@ -161,14 +161,14 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
                 {url2 && (
                   <Button
                     w="50%"
-                    bg="black"
-                    color="white"
+                    bg="white"
+                    color="black"
+                    border="1px"
+                    borderColor="black"
                     fontWeight="bold"
                     _hover={{
                       bg: "black",
                       color: "white",
-                      border: "1px",
-                      borderColor: "white",
                     }}
                     onClick={(e) => handleClick(url2, e)}
                   >

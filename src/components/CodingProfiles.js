@@ -7,11 +7,11 @@ import BigProfile from "./BigProfile";
 
 const CodingProfiles = () => {
   return (
-    <Box className="h-[100vh] bg-blue-100">
+    <Box id="profiles" className="h-auto md:h-[80vh] bg-blue-100">
       <Box className="text-4xl text-white bg-black p-4 gradient-text font-bold ">
         Profiles
       </Box>
-      <Box className="w-[100%] h-auto bg-black flex items-center justify-center py-4 md:h-[100%]">
+      <Box className="w-[100%] h-auto bg-blue-100 flex items-center justify-center py-4 md:h-[100%]">
         <div
           id="carouselExampleControls"
           className="carousel slide"
@@ -19,7 +19,7 @@ const CodingProfiles = () => {
         >
           <div
             className="carousel-inner"
-            style={{ width: "600px", height: "400px" }}
+            
           >
             {profiles.map((m, i) => (
               <div

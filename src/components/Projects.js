@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import {projects} from '../data/data'
 const Projects = () => {
   return (
-    <Box>
+    <Box id="projects" className="bg-gradient-to-b from-blue-300 to-blue-200">
       <Box className="text-4xl text-white p-4 gradient-text font-bold">
         Projects
       </Box>

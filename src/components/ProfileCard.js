@@ -20,7 +20,7 @@ const ProfileCard = ({name,image,profilelink,problemssolved,highestrated}) => {
       <CardBody
         width="100%"
         className="flex justify-center items-center flex-col"
-        backgroundColor="red"
+        backgroundColor="white"
       >
         <Image
           src={image}
