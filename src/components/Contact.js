@@ -1,9 +1,12 @@
 import { Box,Text } from '@chakra-ui/react'
+import { IconContext } from "react-icons";
 import React from 'react'
 import Lottie from 'react-lottie';
 import animationData from "../animations/location.json";
 import animationData1 from "../animations/email.json";
 import animationData2 from '../animations/phone.json';
+import { ImGithub } from "react-icons/im";
+import { ImLinkedin } from "react-icons/im";
 const defaultOptions = {
   loop: true,
   autoplay: true,
@@ -20,6 +23,12 @@ const defaultOptions2 = {
   animationData: animationData2,
 };
 const Contact = () => {
+  const handleClick1 = () => {
+    window.open("https://github.com/Gohitha6Nadikota", "_blank");
+  }
+    const handleClick2 = () => {
+    window.open("https://www.linkedin.com/in/gohitha-nadikota", "_blank");
+  }
   return (
     <Box id="contact" className="bg-blue-950 text-white rounded-t-lg">
       <Box className="text-4xl text-white bg-blue-950 p-4 font-bold">
@@ -54,8 +63,13 @@ const Contact = () => {
           </Box>
         </Box>
       </Box>
-      <Box>
-        
+      <Box className="flex justify-center items-center p-5">
+        <Box className="hover:bg-white rounded-full hover:text-blue-950">
+          <ImGithub className="text-5xl m-[12px]" onClick={handleClick1}/>
+        </Box>
+        <Box className="hover:bg-white rounded-full  hover:text-blue-950">
+          <ImLinkedin className="text-5xl m-[12px]" onClick={handleClick2} />
+        </Box>
       </Box>
     </Box>
   );
