@@ -92,23 +92,8 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
                 >
                   Github
                 </Button>
-                {url2 && (
-                  <Button
-                    w="50%"
-                    bg="white"
-                    color="black"
-                    border="1px"
-                    borderColor="black"
-                    fontWeight="bold"
-                    _hover={{
-                      bg: "black",
-                      color: "white",
-                    }}
-                    onClick={(e) => handleClick(url2, e)}
-                  >
-                    Live
-                  </Button>
-                )}
+               
+              
               </ButtonGroup>
             </CardFooter>
           </Card>
@@ -158,23 +143,8 @@ const ProjectCard = ({ image, name, description, url1, url2 }) => {
                 >
                   Github
                 </Button>
-                {url2 && (
-                  <Button
-                    w="50%"
-                    bg="white"
-                    color="black"
-                    border="1px"
-                    borderColor="black"
-                    fontWeight="bold"
-                    _hover={{
-                      bg: "black",
-                      color: "white",
-                    }}
-                    onClick={(e) => handleClick(url2, e)}
-                  >
-                    Live
-                  </Button>
-                )}
+                
+            
               </ButtonGroup>
             </CardFooter>
           </Card>

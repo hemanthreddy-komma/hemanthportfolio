@@ -24,10 +24,10 @@ const defaultOptions2 = {
 };
 const Contact = () => {
   const handleClick1 = () => {
-    window.open("https://github.com/Gohitha6Nadikota", "_blank");
+    window.open("https://github.com/hemanthreddy-komma", "_blank");
   }
     const handleClick2 = () => {
-    window.open("https://www.linkedin.com/in/gohitha-nadikota", "_blank");
+    window.open("https://www.linkedin.com/in/komma-hemanth-reddy-964269270/", "_blank");
   }
   return (
     <Box id="contact" className="bg-blue-950 text-white rounded-t-lg">
@@ -40,7 +40,7 @@ const Contact = () => {
             <Lottie width="70%" height="50%" options={defaultOptions1} />
           </Box>
           <Box className="text-white flex flex-col justify-center md:justify-start items-center h-[100px]">
-            <Text>gohithapriyanadikota@gmail.com</Text>
+            <Text>mahithakomma2004@gmail.com</Text>
           </Box>
         </Box>
         <Box className="w-[250px] flex justify-center items-center bg-blue-950 flex-col m-2">
@@ -48,8 +48,8 @@ const Contact = () => {
             <Lottie width="70%" height="50%" options={defaultOptions} />
           </Box>
           <Box className="text-white flex flex-col justify-center items-center">
-            <Text>D.No-12/121,Teachers Colony</Text>
-            <Text>Sabbavaram,Anakapalle</Text>
+            <Text>D.No-1/113A</Text>
+            <Text>Lingala.Kadapa</Text>
             <Text>Andhra Pradesh</Text>
           </Box>
         </Box>
@@ -58,8 +58,8 @@ const Contact = () => {
             <Lottie width="80%" height="80%" options={defaultOptions2} />
           </Box>
           <Box className="text-white flex flex-col justify-center items-center h-[120px]">
-            <Text>+91 9581482482</Text>
-            <Text>+91 9652686161</Text>
+            <Text>+91 9703475728</Text>
+            
           </Box>
         </Box>
       </Box>

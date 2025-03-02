@@ -1,16 +1,16 @@
-export const name="Gohitha";
+export const name="Hemanth Reddy";
 export const skills = [
   {
-    name: "C",
+    name: "C++",
+    percent: 70,
+  },
+  {
+    name: "Java",
     percent: 80,
   },
   {
-    name: "C++",
-    percent: 90,
-  },
-  {
     name: "Python",
-    percent: 70,
+    percent: 80,
   },
   {
     name: "SQL",
@@ -21,11 +21,11 @@ export const skills = [
     percent: 90,
   },
   {
-    name: "HTML",
-    percent: 90,
+    name: "AWS Cloud",
+    percent: 70,
   },
   {
-    name: "CSS",
+    name: "React",
     percent: 85,
   },
   {
@@ -53,34 +53,32 @@ export const projects = [
       "Developed a full-stack web application emulating core YouTube functionalities using React.js framework, offering Search, Video Play, Comments, and Live Chat features. Integrated a debouncing feature for smooth and efficient search interactions. ",
     image:
       "https://www.pngall.com/wp-content/uploads/13/Logo-Youtube-PNG-Images.png",
-    url1: "https://github.com/Gohitha6Nadikota/Youtube",
-    url2: "https://youtube-gclone.vercel.app/",
+    url1: "https://github.com/hemanthreddy-komma/youtube-clone/tree/main/Youtube",
   },
   {
-    name: "TravelMate",
+    name: "Zomato Ede",
     description:
-      "Developed a responsive travel suggestion app using the MERN (MongoDB, Express, React.js, Node.js) stack.The application helps tourists plan their travel based on parameters such as type of travel (single, family, friends), month of travel, and theme (mountains, beaches)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tm_logo.jpg",
-    url1: "https://github.com/Gohitha6Nadikota/TM",
-    url2: "https://travelmate-india.vercel.app/",
+      "Analyzed Zomato bookings & sales using data visualization to identify gaps and increase the business growth.",
+    image: "https://usenotioncms.com/proxy-prod/block/7aa08d67-759a-443e-aa07-376cbe7332ac/c5b09c36-a829-4cab-8c13-793616bf9d8a/0c6dd80e-bb72-49cb-94bf-9d9bea9c99b9/Desktop_-_10.png",
+    url1: "https://github.com/hemanthreddy-komma/Zomato-analysis.git",
+    
   },
   {
-    name: "EduLearn",
+    name: "Diwali Sales Data Analysis Using Python",
     description:
       "Developed EduLearnApp, a responsive web application designed to showcase a list of courses and their details using React. The app includes key features such as a Course Listing Page, Course Details Screen, and Student Dashboard. ",
     image:
-      "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/638/808/datas/original.png",
-    url1: "https://github.com/Gohitha6Nadikota/CourseApp",
-    url2: "https://gohitha-course-app.vercel.app/",
+      "data:image/jpeg;base64,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",
+    url1: "https://github.com/hemanthreddy-komma/Python_Diwali_Sales_Analysis-.git",
   },
   {
-    name: "ChatHive",
+    name: "Online Bidding System",
     description:
-      "A social networking application that allows users to interact with friends. Built with React.js, Node.js, Express.js, and MongoDB, and features real-time messaging using Socket.io.",
+      "Designed a web application for bidding on products using Js and Firebase",
     image:
-      "https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Messages-512.png",
-    url1: "https://github.com/Gohitha6Nadikota/ChatHive",
-    url2: "https://chathive-kxzo.onrender.com",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRo7TxpG1h2Dx3J5cCCCOC7yfHcH4fTXtVLQ&s",
+    url1: "https://github.com/hemanthreddy-komma/online-bidding-system.git",
+    
   },
 ];
 
@@ -90,24 +88,24 @@ export const profiles = [
     image:
       "https://cdn.dribbble.com/users/70628/screenshots/1743345/codechef.png",
     highestrated: 1655,
-    problemssolved: 1287,
-    profilelink: "https://www.codechef.com/users/gohitha7",
+    problemssolved: 487,
+    profilelink: "https://www.codechef.com/users/hemanthreddyk3",
   },
   {
     name: "Leetcode",
     image:
       "data:image/png;base64,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",
     highestrated: 1703,
-    problemssolved: 879,
-    profilelink: "https://leetcode.com/u/gohithapriyanadikota/",
+    problemssolved: 479,
+    profilelink: "https://leetcode.com/u/HemanthKomma/",
   },
   {
     name: "GeeksForGeeks",
     image:
       "https://pbs.twimg.com/profile_images/1559406522329100288/bZAmg2J7_400x400.jpg",
-    highestrated: 0,
+    highestrated: 1759,
     problemssolved: 277,
-    profilelink: "https://leetcode.com/u/gohithapriyanadikota/",
+    profilelink: "https://www.geeksforgeeks.org/user/khemanthreddy/",
   },
   {
     name: "Codeforces",
@@ -115,7 +113,7 @@ export const profiles = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDM-ftBEXX9EpZKfwjBhjqOsO0w2isLKs2-GNZMUmTb5xwDfxl5n4aDaz9AzX8XiTdIJY&usqp=CAU",
     highestrated: 0,
     problemssolved: 0,
-    profilelink: "https://codeforces.com/profile/gohithapriyanadikota",
+    profilelink: "https://codeforces.com/profile/Hemanthreddyk03",
   },
   {
     name: "HackerRank",
@@ -123,7 +121,7 @@ export const profiles = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxPYKs6r1RXWZjjJ68vax2bxAC9VPhSsR-Q&s",
     highestrated: 0,
     problemssolved: 0,
-    profilelink: "https://www.hackerrank.com/profile/gohithapriyanad1",
+    profilelink: "https://www.hackerrank.com/profile/mahithakomma2004",
   },
   {
     name: "HackerEarth",
@@ -131,6 +129,6 @@ export const profiles = [
       "https://upload.wikimedia.org/wikipedia/commons/e/e8/HackerEarth_logo.png",
     highestrated: 0,
     problemssolved: 0,
-    profilelink: "https://www.hackerearth.com/@gohithapriyanadikota",
+    profilelink: "https://www.hackerearth.com/@mahithakomma200422L31A4432/",
   },
 ];
