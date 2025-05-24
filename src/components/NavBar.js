@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { TbSquareLetterGFilled } from "react-icons/tb";
+import { TbSquareLetterHFilled } from "react-icons/tb";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -102,7 +102,7 @@ const NavBar = () => {
       </div>
       <div className="md:order-1 mr-[20px] h-[9vh] flex items-center justify-start md:ml-[20px]">
         <IconContext.Provider value={{ color: "white" }}>
-          <TbSquareLetterGFilled className="text-5xl " />
+          <TbSquareLetterHFilled className="text-5xl " />
         </IconContext.Provider>
       </div>
     </div>
