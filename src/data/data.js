@@ -5,8 +5,8 @@ export const skills = [
     percent: 70,
   },
   {
-    name: "Java",
-    percent: 80,
+    name: "C",
+    percent: 70,
   },
   {
     name: "Python",
@@ -25,7 +25,7 @@ export const skills = [
     percent: 70,
   },
   {
-    name: "React",
+    name: "React.js",
     percent: 85,
   },
   {
@@ -44,25 +44,42 @@ export const skills = [
     name: "MongoDB",
     percent: 80,
   },
+  {
+    name: "PowerBI",
+    percent: 60,
+  },
+  {
+    name: "Data Analytics",
+    percent: 70,
+  },
 ];
 
 export const projects = [
   {
-    name: "YoutubeClone",
+    name: "Legal IT",
     description:
-      "Developed a full-stack web application emulating core YouTube functionalities using React.js framework, offering Search, Video Play, Comments, and Live Chat features. Integrated a debouncing feature for smooth and efficient search interactions. ",
+      "Developed an AI-powered legal assistant platform with document analysis, legal chat, lawyer fee prediction, and automated legal document generation using NLP and machine learning",
     image:
-      "https://www.pngall.com/wp-content/uploads/13/Logo-Youtube-PNG-Images.png",
-    url1: "https://github.com/hemanthreddy-komma/youtube-clone/tree/main/Youtube",
+      "https://bernardmarr.com/img/The%20Future%20of%20Lawyers%20Legal%20Tech%20AI%20Big%20Data%20And%20Online%20Courts.png",
+    url1: "https://github.com/hemanthreddy-komma/Legal-IT",
   },
   {
-    name: "Zomato Ede",
+    name: "Real Time Chat Application",
     description:
-      "Analyzed Zomato bookings & sales using data visualization to identify gaps and increase the business growth.",
-    image: "https://usenotioncms.com/proxy-prod/block/7aa08d67-759a-443e-aa07-376cbe7332ac/c5b09c36-a829-4cab-8c13-793616bf9d8a/0c6dd80e-bb72-49cb-94bf-9d9bea9c99b9/Desktop_-_10.png",
-    url1: "https://github.com/hemanthreddy-komma/Zomato-analysis.git",
+      "Developed a full-stack real-time chat application using MERN for instant communication. Implemented features like user authentication, message notifications, and a responsive UI for seamless user experience.",
+    image: "https://files.ably.io/ghost/prod/2023/01/build-a-realtime-chat-app-from-scratch--1-.png",
+    url1: "https://github.com/hemanthreddy-komma/Real-Time-Chat-App.git",
     
   },
+   {
+    name: "Imagify AI",
+    description:
+      "Developed a full-stack SaaS application using MongoDB, Express.js, React.js, and Node.jsto generate AI-powered imagesfrom text prompts",
+    image: "https://www.wpbeginner.com/wp-content/uploads/2024/04/imagify-review-image.png",
+    url1: "https://github.com/hemanthreddy-komma/ImagifyAI.git",
+    
+  },
+ 
   {
     name: "Diwali Sales Data Analysis Using Python",
     description:
