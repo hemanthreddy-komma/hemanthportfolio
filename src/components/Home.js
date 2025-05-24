@@ -15,7 +15,7 @@ const defaultOptions = {
 
 const Home = () => {
   const handleClick = () => {
-    window.open("https://drive.google.com/file/d/1pVpUTxXtbaFyifql36RkWHvCe5kJF7a5/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/18On1UCC_6ePPUzAiv10nS9OUcofjFsGU/view?usp=drive_link", "_blank");
   };
   const [selIndex,setSelIndex]=useState(1);
   useEffect(() => {
@@ -51,7 +51,7 @@ const Home = () => {
         </h1>
         <div className="flex items-center justify-start md:justify-center space-x-* flex-col h-[8.75vh] text-white font-bold">
           <TypeAnimation
-            sequence={["MERN Stack Developer", 1000, "Data Analyst", 1000]}
+            sequence={["Full Stack Developer", 1000, "Data Analyst", 1000]}
             speed={50}
             className="animated-text"
             repeat={Infinity}
