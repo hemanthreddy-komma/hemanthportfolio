@@ -48,8 +48,8 @@ const Contact = () => {
             <Lottie width="70%" height="50%" options={defaultOptions} />
           </Box>
           <Box className="text-white flex flex-col justify-center items-center">
-            <Text>D.No-1/113A</Text>
-            <Text>Lingala.Kadapa</Text>
+        
+            <Text>Pulivendula,Kadapa</Text>
             <Text>Andhra Pradesh</Text>
           </Box>
         </Box>
