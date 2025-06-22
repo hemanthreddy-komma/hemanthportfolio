@@ -15,7 +15,7 @@ const defaultOptions = {
 
 const Home = () => {
   const handleClick = () => {
-    window.open("https://drive.google.com/file/d/18On1UCC_6ePPUzAiv10nS9OUcofjFsGU/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1fluC4v668vGZPjXmx4Qc5Rf3upVBXZgQ/view?usp=sharing", "_blank");
   };
   const [selIndex,setSelIndex]=useState(1);
   useEffect(() => {
